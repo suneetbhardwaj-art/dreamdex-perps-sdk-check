@@ -1,0 +1,16 @@
+{
+  "name": "dreamdex-perps-sdk-check",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only check that the Somnia Markets SDK can reach the dreamDEX perps testnet and list markets.",
+  "scripts": {
+    "check": "node src/list-markets.mjs"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "@somnia-chain/reactivity": "^0.2.1",
+    "viem": "^2.18.5"
+  },
+  "license": "MIT"
+}
